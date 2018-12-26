@@ -1,35 +1,28 @@
-/* Import Exo-Thin Font */
-
+/* Import Proxima-Nova Font */
 @font-face {
     font-family: 'Proxima-Nova';
     src: url('../font/Proxima-Nova-Light.ttf');
 }
 
 /* Import Roboto Font */
-
 @font-face {
     font-family: 'Roboto';
     src: url('../font/Roboto-Regular.ttf');
 }
 
 /* Import Roboto-Light Font */
-
 @font-face {
     font-family: 'Roboto Light';
     src: url('../font/Roboto-Light.ttf');
 }
 
 /* Import Roboto-Thin Font */
-
 @font-face {
     font-family: 'Roboto Thin';
     src: url('../font/Roboto-Thin.ttf');
 }
 
-
-
 /* Default Design */
-
 .header {
     font-family: 'Roboto';
     font-size: 4.1vw;
@@ -104,11 +97,9 @@ section, footer, header {
 ::-webkit-scrollbar-thumb {
     background: rgb(1, 73, 161);
 }
-
 /* End Default Design */
 
 /* Loader Style */
-
 .ground {
     width: 100%;
     height: 100%;
@@ -134,11 +125,9 @@ section, footer, header {
     margin-right: 6px;
     border: 2px #2b4d66 solid;
 }
-
 /* Loader Style */
 
 /* Header Style */
-
 header {
     width: 100%;
     /*height: 100vh;
@@ -315,23 +304,17 @@ header .mainVideo .lampIcon {
     top: 2vw;
     margin-right: -9.5vw;
 }
-
-
 /* End Header Style */
 
 /* Second Section */
-
 section.information {
     width: 100%;
     height: 27.8vw;
     background-image: -ms-linear-gradient( 90deg, rgb(237,239,241) 0%, rgb(255,255,255) 100%, rgb(226,228,232) 6%, rgb(255,255,255) 100%);
 }
-
-
 /* End Second Section */
 
 /* Creativity Section */
-
 section.creativity {
     width: 100%;
     height: 30.5vw;
@@ -355,11 +338,9 @@ section.creativity button {
 section.creativity button a {
     color: rgb(255, 255, 255);
 }
-
 /* Creativity Section */
 
 /* How  We Work Section */
-
 section.how-we-work {
     width: 100%;
     height: 100%;
@@ -394,12 +375,9 @@ section.how-we-work button a {
     color: rgb(1, 73, 161);
     font-weight: bold;
 }
-
 /* End How  We Work Section */
 
-
 /* Slider */
-
 section.slide .rslides {
     position: relative;
     list-style: none;
@@ -565,21 +543,17 @@ section.meetOurTeam button a {
     font-weight: bold;
     color: #fff;
 }
-
 /* End Meet Our Team Style */
 
 /* Map Style */
-
 section.map{
     width: 100%;
     height: 29vw;
     background: url(../img/map.jpg) center bottom no-repeat fixed;
 }
-
 /* End Map Style */
 
 /* Footer Style */
-
 footer#contact {
     width: 100%;
     height: 100%;
@@ -603,11 +577,9 @@ footer#contact p {
 footer#contact p span {
     font-weight: bolder;
 }
-
 /* Footer Style */
 
 /* Keyframes */
-
 @-webkit-keyframes up {
     0% {
         -webkit-transform: translateY(50px);
@@ -633,12 +605,9 @@ footer#contact p span {
         opacity: 1;
     }
 }
-
 /* End Keyframes */
 
-
 /* Media Queries */
-
 @media only screen and (min-width: 1440px) {
     .header {
         font-size: 4.1vw;
@@ -872,5 +841,4 @@ footer#contact p span {
         color: #fff;
     }
 }
-
 /* End Media Queries */
